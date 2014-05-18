@@ -10,6 +10,6 @@ median(data$steps,na.rm=TRUE)
 You can also embed plots, for example:
 
 ```{r fig.width=7, fig.height=6}
-plot(cars)
+plot(data$date,data$steps,na.rm=TRUE)
 ```
 
